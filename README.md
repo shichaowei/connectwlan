@@ -1,7 +1,7 @@
 # connectwlan
 在实际工作中，我们会遇到网卡无缘无故掉线，重新连接又可以上线；主要完成测试网络和连接无线的功能，用于windows环境下
 1.main函数在autoconnectwlan.py，修改ssid为你需要连接的ssid
-#此处换成你需要连接的ssid---TP-LINK_2B66
+
 if ConnectWlan.ConnectWlan("TP-LINK_2B66")==1:
     time.sleep(5)
     tempsec=testnetwork.testnet("www.baidu.com")
